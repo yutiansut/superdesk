@@ -6,7 +6,7 @@
  */
 module.exports = function(grunt) {
     return {
-        apps: ['superdesk-analytics'],
+        apps: [],
         defaultRoute: '/workspace/personal',
         validatorMediaMetadata: {
             headline: {
@@ -45,7 +45,6 @@ module.exports = function(grunt) {
             editorHighlights: true
         },
         workspace: {
-            analytics: true
         }
     };
 };
