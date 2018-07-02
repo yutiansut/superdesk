@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - superdesk-client-core > grunt-angular-gettext > angular-gettext-tools > cheerio > lodash:
+        patched: '2018-07-02T23:05:52.032Z'
+    - superdesk-client-core > grunt-usemin > lodash:
+        patched: '2018-07-02T23:05:52.032Z'
+    - superdesk-client-core > load-grunt-config > lodash:
+        patched: '2018-07-02T23:05:52.032Z'
+    - superdesk-client-core > angular-embedly > karma > lodash:
+        patched: '2018-07-02T23:05:52.032Z'
