@@ -1,0 +1,8 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - superdesk-client-core > grunt-angular-gettext > angular-gettext-tools > cheerio > lodash:
+        patched: '2019-02-22T01:45:50.221Z'

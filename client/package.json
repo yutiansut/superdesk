@@ -1,9 +1,15 @@
 {
-    "name": "superdesk",
-    "license": "GPL-3.0",
-    "dependencies": {
-        "superdesk-analytics": "superdesk/superdesk-analytics#963c6e1",
-        "superdesk-core": "superdesk/superdesk-client-core#master",
-        "superdesk-publisher": "superdesk/superdesk-publisher#master"
-    }
+  "name": "superdesk",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "superdesk-analytics": "superdesk/superdesk-analytics#963c6e1",
+    "superdesk-core": "superdesk/superdesk-client-core#master",
+    "superdesk-publisher": "superdesk/superdesk-publisher#master",
+    "snyk": "^1.134.2"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
