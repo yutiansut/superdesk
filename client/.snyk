@@ -1,0 +1,95 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - superdesk-client-core > angular-embedly > karma > connect > debug:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > body-parser > debug:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > connect-timeout > debug:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > express-session > debug:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > finalhandler > debug:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > morgan > debug:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > serve-index > debug:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > serve-static > send > debug:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > compression > debug:
+        patched: '2019-04-01T02:24:36.109Z'
+  'npm:hoek:20180212':
+    - superdesk-client-core > node-sass > request > hawk > hoek:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > node-sass > request > hawk > sntp > hoek:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > node-sass > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > node-sass > request > hawk > boom > hoek:
+        patched: '2019-04-01T02:24:36.109Z'
+  'npm:lodash:20180130':
+    - superdesk-client-core > grunt-usemin > lodash:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > load-grunt-config > lodash:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > lodash:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > grunt-angular-gettext > angular-gettext-tools > cheerio > lodash:
+        patched: '2019-04-01T02:24:36.109Z'
+  'npm:mime:20170907':
+    - superdesk-client-core > angular-embedly > karma > connect > serve-static > send > mime:
+        patched: '2019-04-01T02:24:36.109Z'
+  'npm:minimatch:20160620':
+    - superdesk-client-core > angular-embedly > karma > minimatch:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2019-04-01T02:24:36.109Z'
+  'npm:ms:20170412':
+    - superdesk-client-core > angular-embedly > karma > connect > serve-static > send > ms:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > connect-timeout > ms:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > morgan > debug > ms:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > express-session > debug > ms:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > finalhandler > debug > ms:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > compression > debug > ms:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > serve-index > debug > ms:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > body-parser > debug > ms:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > connect-timeout > debug > ms:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > debug > ms:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > serve-static > send > debug > ms:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > serve-favicon > ms:
+        patched: '2019-04-01T02:24:36.109Z'
+  'npm:negotiator:20160616':
+    - superdesk-client-core > angular-embedly > karma > connect > compression > accepts > negotiator:
+        patched: '2019-04-01T02:24:36.109Z'
+    - superdesk-client-core > angular-embedly > karma > connect > serve-index > accepts > negotiator:
+        patched: '2019-04-01T02:24:36.109Z'
+  'npm:tunnel-agent:20170305':
+    - superdesk-client-core > node-sass > request > tunnel-agent:
+        patched: '2019-04-01T02:24:36.109Z'
+  'npm:uglify-js:20151024':
+    - superdesk-client-core > angular-embedly > gulp-uglify > uglify-js:
+        patched: '2019-04-01T02:24:36.109Z'
+  'npm:ws:20160920':
+    - superdesk-client-core > angular-embedly > karma > socket.io > socket.io-client > ws:
+        patched: '2019-04-01T02:24:36.109Z'
