@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - superdesk-client-core > grunt > grunt-legacy-log > lodash:
+        patched: '2019-07-04T01:43:08.523Z'
+    - superdesk-analytics > lodash:
+        patched: '2019-07-04T01:43:08.523Z'
+    - superdesk-client-core > redux > lodash:
+        patched: '2019-07-04T01:43:08.523Z'
+    - superdesk-client-core > grunt-webpack > lodash:
+        patched: '2019-07-04T01:43:08.523Z'
+    - superdesk-client-core > react-redux > lodash:
+        patched: '2019-07-04T01:43:08.523Z'
+    - superdesk-client-core > node-sass > sass-graph > lodash:
+        patched: '2019-07-04T01:43:08.523Z'
+    - superdesk-client-core > react-mentions > lodash:
+        patched: '2019-07-04T01:43:08.523Z'
+    - superdesk-client-core > grunt-angular-gettext > angular-gettext-tools > lodash:
+        patched: '2019-07-04T01:43:08.523Z'
+    - superdesk-client-core > sass-loader > async > lodash:
+        patched: '2019-07-04T01:43:08.523Z'
+    - superdesk-client-core > webpack > async > lodash:
+        patched: '2019-07-04T01:43:08.523Z'
+    - superdesk-client-core > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2019-07-04T01:43:08.523Z'
+    - superdesk-client-core > node-sass > gaze > globule > lodash:
+        patched: '2019-07-04T01:43:08.523Z'
